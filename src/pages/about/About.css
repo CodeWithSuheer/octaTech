@@ -1,0 +1,28 @@
+.about {
+  position: relative;
+  background-image: url("https://cdn.shopify.com/s/files/1/0649/1399/8024/files/business-people-casual-meeting.jpg?v=1713816141");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: fill;
+}
+
+.about::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #414141cc;
+  z-index: 1;
+}
+
+.about .about_cont {
+  position: relative;
+  z-index: 2;
+}
+
+.about h2 {
+  filter: none;
+}

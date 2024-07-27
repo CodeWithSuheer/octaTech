@@ -1,0 +1,37 @@
+.services_banner_img {
+    background-image: url("https://res.cloudinary.com/dgsnff8tg/image/upload/v1711396349/Rectangle_1041_fsnwit.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* min-height: 70vh !important; */
+}
+
+.remote_monitoring_banner_img {
+    background-image: url("https://res.cloudinary.com/dgsnff8tg/image/upload/v1711397085/Rectangle_1037_7_syfdjt.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: fill !important;
+}
+
+
+.cacrd_up_hover {
+    transition: .5s ease;
+    cursor: pointer;
+}
+
+.cacrd_up_hover:hover {
+    transform: translateY(-5px) !important;
+    transition: .5s ease;
+}
+
+
+.hover_up {
+    transition: .3s ease;
+    cursor: pointer;
+}
+
+.hover_up:hover {
+    transform: translateY(-5px) !important;
+    transition: .3s ease;
+}
